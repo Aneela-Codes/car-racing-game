@@ -1,2 +1,2 @@
-# car-racing-game
-A simple car race game development
+# GAME DEVELOPMENT USING JAVSCRIPT
+A simple car race game development uing vanilla JavaScript
