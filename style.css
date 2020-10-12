@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hide{
+    display: none;
+}
+.Game{
+    width: 100%;
+    height: 100vh;
+    background: url('https://f0.pngfuel.com/png/637/30/green-trees-and-mountain-illustration-png-clip-art.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Start-Screen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid teal;
+    z-index: 11;
+    background: rgb(211, 22, 170);
+    padding: 2rem 4rem;
+    color:white;
+}
+.Game-Area{
+    position: relative;
+    width: 400px;
+    height: 100vh;
+    background: #12171d;
+    margin: auto;
+    border-left: 10px dashed rgb(78, 7, 110);
+    border-right: 10px dashed rgb(78, 7, 110);
+}
+.lines{
+    width: 12px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    margin-left: 190px;
+}
+.car, .enemyCar{
+    position: absolute;
+    bottom: 100px;
+    width: 60px;
+    height: 80px;
+    background: teal;
+    /* background: url('green.jfif'); */
+
+}
+/* .car{
+    border-radius: 33px;
+    background: url('images/white.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 80px;
+} */
+.Score{
+    position: absolute;
+    background: teal;
+    height: 100px;
+    width: 200px;
+    color: white;
+    font-size: 2rem;
+}
