@@ -22,18 +22,26 @@
     transform: translate(-50%, -50%);
     border: 1px solid teal;
     z-index: 11;
-    background: rgb(211, 22, 170);
-    padding: 2rem 4rem;
-    color:white;
+    background: #16a085;
+    padding: 1rem 4rem;
+    color:black;
+    font-weight: bold;
+    /* width: 50%; */
+    box-shadow: 3px 3px 20px  #2c3e50;
+}
+.Start-Screen h2{
+    margin: 1rem 0;
+    color: #bdc3c7;
+    cursor: pointer;
 }
 .Game-Area{
     position: relative;
     width: 400px;
     height: 100vh;
-    background: #12171d;
+    background: #2c3e50;
     margin: auto;
-    border-left: 10px dashed rgb(78, 7, 110);
-    border-right: 10px dashed rgb(78, 7, 110);
+    border-left: 10px dashed#7f8c8d;
+    border-right: 10px dashed#7f8c8d;
 }
 .lines{
     width: 12px;
@@ -48,22 +56,18 @@
     width: 60px;
     height: 80px;
     background: teal;
-    /* background: url('green.jfif'); */
+    border-radius: 6px;
 
 }
-/* .car{
-    border-radius: 33px;
-    background: url('images/white.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 80px;
-} */
+
 .Score{
     position: absolute;
-    background: teal;
-    height: 100px;
+    background: #e74c3c;
     width: 200px;
     color: white;
     font-size: 2rem;
+}
+.Score h1{
+    color: #e74c3c ;
+     font-weight: bold;
 }
